@@ -1,4 +1,4 @@
-Usage: bytediff [OPTIONS]... FILE REF DIFF1 [DIFF2] ... [DIFFn]
+<pre>Usage: bytediff [OPTIONS]... FILE REF DIFF1 [DIFF2] ... [DIFFn]
 
    -b BITS    Read 8-, 16-, 24-, or 32-bit integers based on BITS
    -e         Arrange bytes for little endian (default)
@@ -32,4 +32,4 @@ Examples:
       bytediff file.bin -b 16 -s castle -S 0x20
    Print all strings in a file that are recognized by mapping file
    `map.txt' within range 0x4000 and 0x6000:
-      bytediff file.bin -M map.txt -o 0x4000 -O 0x6000
+      bytediff file.bin -M map.txt -o 0x4000 -O 0x6000</pre>

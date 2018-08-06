@@ -1,6 +1,6 @@
 # bytediff
 
-This tool is used for sequences in binary files where the differences between consequtive bytes are the same as a user-provided sequence of bytes or a string. You can use it to find a sequence of bytes you know exists within a file - like a word in lower case - but you don't know what the exact corresponding bytes are.
+This tool is used for sequences in binary files where the differences between consequtive bytes are the same as a user-provided sequence of bytes or a string. You can use it to find a sequence of bytes you know exists within a file (such as a word in lower case) but you don't know what the exact corresponding bytes are.
 
 Let's say you wanted to find an ascending pattern of 5 bytes, or a sequences of bytes that may spell out the word "donut". Run bytediff like so:
 
